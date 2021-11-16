@@ -15,7 +15,7 @@ function App() {
     CounterHooks:
     <CounterHooks initialCount={0}/>
     <br></br>
-    <button onClick={() => setTheme(prevTheme => prevTheme === 'red' ? 'blue' : 'grey' )}>Change Theme</button>
+    <button onClick={() => setTheme(prevTheme => prevTheme === 'red' ? 'blue' : 'red' )}>Change Theme</button>
     </ThemeContext.Provider>
   )
 }
